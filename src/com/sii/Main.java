@@ -37,11 +37,10 @@ public class Main {
 
     }
     public static float naimKv( float c, float z, float d){
-        float f=c*z+d;
-        return f;
+        return c*z+d;
+
     }
     public static float realVih(float z){
-        float t = (float) (-0.5)*z;
-        return t;
+        return  (float) (-0.5)*z;
     }
 }
