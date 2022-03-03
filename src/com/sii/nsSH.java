@@ -7,7 +7,7 @@ public class nsSH {
         float f;
         float c=0F;//коэф нейронки
         float d=0F;//коэф нейронки
-        float x=-2;
+        float x;
         float nn=0.05F;
         float z;
         float t;
@@ -47,11 +47,9 @@ public class nsSH {
         System.out.println(E);
     }
     public static float naimKv( float c, float z, float d){
-        float f=c*z+d;
-        return f;
+        return c*z+d;
     }
     public static float realVih(float z,float e){
-        float t = (float) (-0.5)*z+e;
-        return t;
+        return (float) (-0.5)*z+e;
     }
 }
